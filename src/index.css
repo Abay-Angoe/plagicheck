@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn-primary {
+  background: #0267ff;
+  border: none;
+  color: white;
+  height: 44px;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn-primary:hover {
+  background: #67a4ff;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  background: #0252cc;
+  cursor: pointer;
+}
+.btn-primary:disabled {
+  background-color: #0267ff;
+  opacity: 0.2 !important;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: white;
+  border: 2px solid #a6a6ab;
+  color: black;
+  height: 44px;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn-secondary:hover {
+  background: #e9e9ea;
+  border: 2px solid #a6a6ab;
+  cursor: pointer;
+}
+.btn-secondary:active {
+  background: #d2d3d5;
+  border: 2px solid #a6a6ab;
+  cursor: pointer;
+}
+.btn-secondary:disabled {
+  background: white;
+  border: 2px solid #a6a6ab;
+  opacity: 0.2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: hidden;
+}
+.btn-error {
+  background-color: #ff0000;
+  color: #fff;
+}
+.btn-error:hover {
+  background: #f66;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-error:focus {
+  background: #c00;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-error:disabled {
+  background: #f66;
+  color: #fff;
+  opacity: 0.2;
+}
+body{
+    font-family: 'Archivo';
+}
+.error{
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: 2px solid red;}
+
+.loader{
+    margin: auto;  
+}
+
+@media screen and (max-width: 1024px) {
+
+  .btn-secondary{
+    height: 35px;
+  }
+
+  .btn-primary{
+    height: 35px;
+
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+/* 
+  .btn-secondary{
+    height: 35px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .btn-primary{
+
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+    cursor: pointer;
+    border-radius: 8px;
+  } */
+}
