@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      className="template-overlay"
+      style="
+        font-family: Archivo;
+        display: inline-flex;
+        padding: 195px 406px 195.179px 405px;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        className="template-box"
+        style="
+          display: flex;
+          padding: 16px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+        "
+      >
+        <div className="header">
+          <img src="" alt="Plagicheck Logo" />
+        </div>
+        <div
+          className="content"
+          style="
+            width: 597px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+          "
+        >
+          <p>Subject: Invitation to Join Plagiarism Checker System</p>
+          <p>Dear {name},</p>
+          <p>
+            You're invited to join our Plagiarism Checker System. Please find
+            your login details below: <br /><br />
+
+            Email: {email} <br />
+            Staff ID: {staffId}<br />
+            Temporary Password: {tempPassword}<br /><br />
+          </p>
+          <p>
+            To log in to the system, visit our login page:
+            <span style="color: #0267ff">{' '}www.plagicheck.com/login</span>
+            <br />
+            Once logged in, you can check documents, generate reports, and
+            contribute to maintaining academic integrity.
+          </p>
+          <br /><br />
+          <p>For support, reach us at:</p>
+          <br />
+          <p>Email:<span style="color: #0267ff">{' '}</span></p>
+          <br />
+          <p>Phone: +1 (123) 456-7890</p>
+          <br />
+          <p>Thank you for joining us in upholding academic excellence.</p>
+          <p>
+            Best regards,
+            <br />
+            Plagicheck team
+          </p>
+        </div>
+
+        <p
+          style="
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+          "
+        >
+          This email was sent to <a style="color: #0267ff">{Email}</a>. If you'd
+          rather not receive this kind of email, you can
+          <a style="color: #0267ff">unsubscribe</a> or
+          <a style="color: #0267ff">manage your email preferences</a>. <br />
+          <br />
+          © 2023 Plagicheck
+        </p>
+        <div className="footer">
+          <img src="" alt="Plagicheck Logo" />
+          <div className="social-icons">
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
